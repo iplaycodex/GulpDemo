@@ -1,0 +1,481 @@
+﻿body {
+}
+
+a {
+    cursor: pointer;
+}
+/* 修改框架 */
+.textRight {
+    text-align: right; 
+}
+
+.portlet.light.bordered > .portlet-title.noneLine {
+    border: none;
+}
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open > .dropdown-toggle.btn-default {
+    background:#fff;
+}
+.portlet > .portlet-title {
+    margin-bottom: 0px;
+}
+.portlet.light .portlet-body.noneTop {
+    padding-top: 0px;
+}
+
+.totalIndent {
+    color: #909090 !important;
+    border:1px solid #ccc;
+    border-radius:1px!important;
+}
+
+.totalIndent:hover {
+    color: #427bca;
+}
+
+.btn-circle {
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+
+
+
+.portlet > .portlet-title > .tools > a.active {
+    border: 1px solid #ccc;
+}
+
+.scroller {
+    overflow-y: visible !important;
+}
+
+.slimScrollDiv {
+    overflow-y: visible !important;
+}
+
+.portlet.light {
+    padding: 12px 10px 6px 13px;
+    border:1px solid #e5e5e5!important;
+}
+/*MARK BY ALLEN*/
+.margin-right10 {
+    margin-right:10px;
+}
+.margin-left7 {
+    margin-left:7px;
+}
+.margin-top8 {
+    margin-top:9px!important;
+}
+.margin-top15 {
+    margin-top:10px!important;
+}
+.padding-top7 {
+    padding-top:6px!important;
+}
+.padding-top13 {
+    padding-top:13px!important;
+}
+.chart-bar g[transform="translate(0,11)"] {
+    display: none;
+}
+.dropdown-toggle.orderQuery {
+    background:#fff;
+}
+    .dropdown-toggle.orderQuery a {
+        padding-right:5px;
+        background:none !important;
+    }
+.portlet-body.onlineRepairBody {
+    height:auto;
+
+}
+.portlet > .portlet-title > .tools > a {
+    height: 23px;
+    /*font-weight: 600;*/
+    color: #999;
+    padding:4px 9px 23px 10px;
+}
+/* 微信保修*/
+.weixin-form {
+    height: 370px;
+    margin-bottom: 0px;
+    margin-top: -1px;   
+    overflow: hidden;
+}
+
+.weixin-name {
+    color:#000;
+    display: inline-block;
+    max-width: 110px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.weixin-form .media img {
+    width:40px;
+    height:40px;
+    background:#ccc;
+}
+.weixin-form .none-result {
+    display:none;
+    width:282px;
+    height:200px;
+    margin:0 auto;
+    margin-top:62px;
+    text-align:center;
+    color:#dcdcdc;
+}
+    .weixin-form .none-result.on {
+        display:block;
+    }
+    .weixin-form .none-result img {
+
+        width:100px;
+        height:100px;
+
+        border:none;
+    }
+    .weixin-form .none-result h3 {
+       font-family: "Microsoft YaHei",Arial;
+    }
+    .weixin-form .none-result p {
+        margin-top:2px;
+    }
+.new {
+    margin-left: 5px;
+}
+
+.media-heading {
+    margin-top:12px!important;
+    font-size: 14px;
+}
+
+.fa-clock-o {
+    font-size: 12px !important;
+    padding-right: 5px;
+}
+
+.small {
+    font-size: 12px !important;
+}
+
+.weixin-describe {
+   /*
+    display: inline-block;
+    width: 250px;
+   */
+    clear:both;
+    color: #808080;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    float:left;
+    margin:5px 0 5px 0;
+}
+
+.font-default {
+    color: #808080;
+}
+
+.line {
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+.handle-icon {
+    font-family:"微软雅黑";
+    font-size: 14px;
+    color: #999;
+    text-decoration:underline;
+}
+
+
+
+/* 回访作业*/
+
+
+.visit {
+    /*height:325px*/
+    height: 401px;
+    overflow: hidden;
+}
+.visit .table tr {
+    height:37px;
+    overflow:hidden;
+}
+    .visit .none-result {
+    display:none;
+    width:282px;
+    height:70px;
+    margin:0 auto;
+    margin-top:86px;
+    font-family: "Microsoft YaHei",Arial;
+    text-align:center;
+    color:#dcdcdc;
+}  
+    .visit .none-result.on {
+        display:block;
+    }
+    .visit .none-result h3 {
+       font-family: "Microsoft YaHei",Arial;
+    }
+    .visit .none-result p {
+        margin-top:2px;
+    }
+.slimScrollDiv {
+    overflow: visible !important;
+}
+
+.scroller {
+    overflow: visible !important;
+}
+
+.selectFind {
+    position: relative;
+}
+
+.select {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 33;
+}
+
+.input {
+    padding-left: 80px;
+}
+
+.find {
+    position: relative;
+    z-index: 11;
+}
+/* date */
+th.today {
+    background: #428bca;
+}
+
+    th.today:hover {
+        background: #357ebd !important;
+    }
+
+td span.active {
+    background: #428bca !important;
+}
+
+/* 图表 */
+.chart-bar .portlet-body {
+    display:none;
+    width:100%;
+    height:439px;
+    padding-top:0px;
+}
+.chart-pie .portlet-body {
+    display:none;
+    width:100%;
+    height:325px;
+    padding-top:0px;
+}
+.chart-bar .portlet-body.on {
+    display:block;
+}
+.chart-pie .portlet-body.on {
+    display:block;
+}
+.chart-box .none-result {
+    display:none;
+    width:100%;
+    margin:0 auto;
+    text-align:center;
+    color:#dcdcdc;
+}
+    .chart-box .none-result.on {
+        display:block;
+    }
+    .chart-box .none-result img {
+
+        width:100px;
+        height:100px;
+
+        border:none;
+    }
+    .chart-box .none-result h3 {
+       font-family: "Microsoft YaHei",Arial;
+    }
+    .chart-box .none-result p {
+        margin-top:2px;
+    }
+.chart-pie .none-result {
+    width:100%;
+    height:325px;
+    padding-top:60px;
+}
+.chart-bar .none-result {
+    width:100%;
+    height:439px;
+    padding-top:120px;
+}
+    .chart-bar .none-result div {
+        height:109px;
+        width:426px;
+        text-align:left;
+        margin:0 auto;
+    }
+        .chart-bar .none-result div img {
+            float:left;
+        }
+        .chart-bar .none-result div li{
+            list-style:none;
+            float:left;
+            display:inline-block;
+            height:73px;
+            width:316px;
+            padding-top:30px;
+            padding-left:26px;
+
+        }
+
+#chartdiv1 {
+    width: 100%;
+    height: 325px;
+    font-size: 11px;
+}
+
+#chartdiv2 {
+    width: 100%;
+    height: 300px;
+    font-size: 11px;
+}
+
+.amcharts-pie-slice {
+    transform: scale(1);
+    transform-origin: 50% 50%;
+    transition-duration: 0.3s;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    cursor: pointer;
+    box-shadow: 0 0 30px 0 #000;
+}
+
+    .amcharts-pie-slice:hover {
+        transform: scale(1.1);
+        filter: url(#shadow);
+    }
+.findBox {
+    display: inline-block;
+    width: 200px;
+    height: 24px;
+    padding-left: 15px;
+}
+
+    .findBox .text {
+        float: left;
+        display: inline-block;
+        width: 50px;
+        height: 24px;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: right;
+        color: #808080;
+    }
+
+    .findBox .inputBox {
+        float: left;
+        display: inline-block;
+        width: 100px;
+        height: 24px;
+    }
+
+        .findBox .inputBox input[type=text] {
+            padding-left: 5px;
+            font-size: 14px;
+            font-weight: 700;
+            color: #428bca;
+        }
+
+
+.weixin-describe.onlineRepairproblem {
+    height:18px;
+    cursor:pointer;
+}
+/* 图标样式 */
+tspan[y="6"] {
+    font-size: 12px !important;
+}
+
+tspan[y="19"] {
+    font-size: 12px !important;
+}
+
+#mainPageDropdownButton a, #mainPageDropdownButton a:hover {
+    text-decoration: none;
+    background-image: none;
+    background-color: #f6f6f6;
+    color: #555;
+    filter: none;
+}
+/*新增的公用CSS样式*/
+.hdie {
+    display:none;
+}
+.table tbody tr {
+    border:none!important;
+}
+.table > thead > tr > th {
+    border-bottom:1px solid #eee!important;
+    color:#999;
+}
+.table > tbody > tr > td {
+ border-top:none!important;
+ color:#999;
+ font-size:12px;
+}
+.mainPageBorderRaduisStyle {
+    border:1px solid #ccc;
+    border-radius:25px!important;
+}
+.mainTableStyle {
+    height: 320px;
+    display: block;
+    overflow: hidden;
+}
+.table > tbody > tr > td, .table>thead>tr>th {
+    text-align:left;
+}
+/*新增的样式*/
+.mainPageBgColor {
+       background-color:#f4f4f4!important;
+}
+.bottomChartActive {
+    border:1px solid #ccc;
+}
+.mainPageTitleColor {
+    color:#666!important;
+}
+.media-left, .media > .pull-left {
+    padding-right:14px;
+}
+.missionList tr:nth-child(odd) {
+    background-color:#f6f6f6;
+}
+.missionList tr:nth-child(even) {
+    background-color:#ffffff;
+}
+.mainPageContentFontColor {
+    color:#999!important;
+}
+/*添加的样式*/
+.alwaysShow {
+    display:block!important;
+    opacity:1!important;
+}
+.alwaysHide {
+    display:none!important;
+}
+#genpassword:hover {
+    background:#0054fd!important;
+}
+.alwaysShow {
+    display:block!important;
+}
