@@ -1,0 +1,708 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'gulp-jshint',
+1 verbose cli   '-save-dev' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\package.json
+5 warn package.json howtousegulp@1.0.0 No description
+6 warn package.json howtousegulp@1.0.0 No repository field.
+7 warn package.json howtousegulp@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp\package.json
+9 verbose installManyTop reading scoped package data from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-concat\package.json
+10 verbose installManyTop reading scoped package data from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-htmlmin\package.json
+11 verbose installManyTop reading scoped package data from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-imagemin\package.json
+12 verbose installManyTop reading scoped package data from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-minify-css\package.json
+13 verbose installManyTop reading scoped package data from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-rename\package.json
+14 verbose installManyTop reading scoped package data from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-uglify\package.json
+15 info package.json gulp-minify-css@1.2.4 No repository field.
+16 info package.json gulp-rename@1.2.2 No license field.
+17 verbose readDependencies loading dependencies from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\package.json
+18 silly cache add args [ 'gulp-jshint', null ]
+19 verbose cache add spec gulp-jshint
+20 silly cache add parsed spec Result {
+20 silly cache add   raw: 'gulp-jshint',
+20 silly cache add   scope: null,
+20 silly cache add   name: 'gulp-jshint',
+20 silly cache add   rawSpec: '',
+20 silly cache add   spec: 'latest',
+20 silly cache add   type: 'tag' }
+21 silly addNamed gulp-jshint@latest
+22 verbose addNamed "latest" is being treated as a dist-tag for gulp-jshint
+23 info addNameTag [ 'gulp-jshint', 'latest' ]
+24 silly mapToRegistry name gulp-jshint
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry http://registry.cnpmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'gulp-jshint',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   name: 'gulp-jshint',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri http://registry.cnpmjs.org/gulp-jshint
+29 verbose addNameTag registry:http://registry.cnpmjs.org/gulp-jshint not in flight; fetching
+30 verbose request uri http://registry.cnpmjs.org/gulp-jshint
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 16:05:48
+33 verbose request id 9c3e4686ff9325d9
+34 http request GET http://registry.cnpmjs.org/gulp-jshint
+35 http 200 http://registry.cnpmjs.org/gulp-jshint
+36 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+36 verbose headers   date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+36 verbose headers   'content-type': 'application/json; charset=utf-8',
+36 verbose headers   'transfer-encoding': 'chunked',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-current-requests': '1',
+36 verbose headers   'x-readtime': '32',
+36 verbose headers   'strict-transport-security': 'max-age=15768000',
+36 verbose headers   'content-encoding': 'gzip' }
+37 silly get cb [ 200,
+37 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+37 silly get     date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+37 silly get     'content-type': 'application/json; charset=utf-8',
+37 silly get     'transfer-encoding': 'chunked',
+37 silly get     connection: 'keep-alive',
+37 silly get     'x-current-requests': '1',
+37 silly get     'x-readtime': '32',
+37 silly get     'strict-transport-security': 'max-age=15768000',
+37 silly get     'content-encoding': 'gzip' } ]
+38 verbose get saving gulp-jshint to C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\registry.cnpmjs.org\gulp-jshint\.cache.json
+39 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+40 silly addNameTag next cb for gulp-jshint with tag latest
+41 silly addNamed gulp-jshint@2.0.1
+42 verbose addNamed "2.0.1" is a plain semver version for gulp-jshint
+43 silly cache afterAdd gulp-jshint@2.0.1
+44 verbose afterAdd C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\gulp-jshint\2.0.1\package\package.json not in flight; writing
+45 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+46 verbose afterAdd C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\gulp-jshint\2.0.1\package\package.json written
+47 silly install resolved [ { name: 'gulp-jshint',
+47 silly install resolved     description: 'JSHint plugin for gulp',
+47 silly install resolved     version: '2.0.1',
+47 silly install resolved     homepage: 'http://github.com/spalger/gulp-jshint',
+47 silly install resolved     repository: { type: 'git', url: 'git://github.com/spalger/gulp-jshint.git' },
+47 silly install resolved     contributors: [ [Object], [Object] ],
+47 silly install resolved     main: './src/index.js',
+47 silly install resolved     keywords: [ 'gulpplugin' ],
+47 silly install resolved     dependencies:
+47 silly install resolved      { 'gulp-util': '^3.0.0',
+47 silly install resolved        lodash: '^4.12.0',
+47 silly install resolved        minimatch: '^2.0.1',
+47 silly install resolved        rcloader: '0.1.2',
+47 silly install resolved        through2: '~0.6.1' },
+47 silly install resolved     peerDependencies: { jshint: '2.x' },
+47 silly install resolved     devDependencies: { gulp: '^3.8.10', mocha: '^2.1.0', should: '^4.0.4' },
+47 silly install resolved     scripts: { test: 'gulp test' },
+47 silly install resolved     engines: { node: '>= 0.4.0' },
+47 silly install resolved     license: 'MIT',
+47 silly install resolved     gitHead: '4a7f304c24eeb3dc7740add65df01e485b7d502f',
+47 silly install resolved     bugs: { url: 'https://github.com/spalger/gulp-jshint/issues' },
+47 silly install resolved     _id: 'gulp-jshint@2.0.1',
+47 silly install resolved     _shasum: '83f4f10ab0cd6ca24a42b65346d6f26bb642485a',
+47 silly install resolved     _from: 'gulp-jshint@latest',
+47 silly install resolved     _npmVersion: '3.8.6',
+47 silly install resolved     _nodeVersion: '6.0.0',
+47 silly install resolved     _npmUser: { name: 'spalger', email: 'email@spalger.com' },
+47 silly install resolved     dist:
+47 silly install resolved      { shasum: '83f4f10ab0cd6ca24a42b65346d6f26bb642485a',
+47 silly install resolved        size: 6413,
+47 silly install resolved        noattachment: false,
+47 silly install resolved        tarball: 'http://registry.cnpmjs.org/gulp-jshint/download/gulp-jshint-2.0.1.tgz' },
+47 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly install resolved     _npmOperationalInternal:
+47 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+47 silly install resolved        tmp: 'tmp/gulp-jshint-2.0.1.tgz_1462825473202_0.44607414747588336' },
+47 silly install resolved     directories: {},
+47 silly install resolved     publish_time: 1462825473714,
+47 silly install resolved     _cnpm_publish_time: 1462825473714,
+47 silly install resolved     _resolved: 'http://registry.cnpmjs.org/gulp-jshint/download/gulp-jshint-2.0.1.tgz',
+47 silly install resolved     readme: 'ERROR: No README data found!' } ]
+48 info install gulp-jshint@2.0.1 into C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp
+49 info installOne gulp-jshint@2.0.1
+50 verbose installOne of gulp-jshint to C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp not in flight; installing
+51 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\_locks correctMkdir not in flight; initializing
+52 verbose lock using C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\_locks\gulp-jshint-c344313a8e0a36fa.lock for C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint
+53 silly install write writing gulp-jshint 2.0.1 to C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint
+54 verbose unbuild node_modules\gulp-jshint
+55 silly gentlyRm C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint is being purged from base C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp
+56 verbose gentlyRm don't care about contents; nuking C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint
+57 verbose tar unpack C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\gulp-jshint\2.0.1\package.tgz
+58 verbose tar unpacking to C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint
+59 silly gentlyRm C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint is being purged
+60 verbose gentlyRm don't care about contents; nuking C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint
+61 silly gunzTarPerm modes [ '777', '666' ]
+62 silly gunzTarPerm extractEntry package.json
+63 silly gunzTarPerm modified mode [ 'package.json', 420, 438 ]
+64 silly gunzTarPerm extractEntry .npmignore
+65 silly gunzTarPerm modified mode [ '.npmignore', 420, 438 ]
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm modified mode [ 'README.md', 420, 438 ]
+68 silly gunzTarPerm extractEntry LICENSE
+69 silly gunzTarPerm modified mode [ 'LICENSE', 493, 511 ]
+70 silly gunzTarPerm extractEntry CHANGELOG.md
+71 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 420, 438 ]
+72 silly gunzTarPerm extractEntry src/extract.js
+73 silly gunzTarPerm modified mode [ 'src/extract.js', 420, 438 ]
+74 silly gunzTarPerm extractEntry src/fileIgnored.js
+75 silly gunzTarPerm modified mode [ 'src/fileIgnored.js', 420, 438 ]
+76 silly gunzTarPerm extractEntry src/index.js
+77 silly gunzTarPerm modified mode [ 'src/index.js', 420, 438 ]
+78 silly gunzTarPerm extractEntry src/lint.js
+79 silly gunzTarPerm modified mode [ 'src/lint.js', 420, 438 ]
+80 silly gunzTarPerm extractEntry src/stream.js
+81 silly gunzTarPerm modified mode [ 'src/stream.js', 420, 438 ]
+82 silly gunzTarPerm extractEntry src/reporters/fail.js
+83 silly gunzTarPerm modified mode [ 'src/reporters/fail.js', 420, 438 ]
+84 silly gunzTarPerm extractEntry src/reporters/index.js
+85 silly gunzTarPerm modified mode [ 'src/reporters/index.js', 420, 438 ]
+86 verbose write writing to C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint\package.json
+87 info preinstall gulp-jshint@2.0.1
+88 verbose readDependencies loading dependencies from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint\package.json
+89 silly prepareForInstallMany adding gulp-util@^3.0.0 from gulp-jshint dependencies
+90 silly prepareForInstallMany adding lodash@^4.12.0 from gulp-jshint dependencies
+91 silly prepareForInstallMany adding minimatch@^2.0.1 from gulp-jshint dependencies
+92 silly prepareForInstallMany adding rcloader@0.1.2 from gulp-jshint dependencies
+93 silly prepareForInstallMany adding through2@~0.6.1 from gulp-jshint dependencies
+94 silly prepareForInstallMany adding jshint@2.x from gulp-jshint peerDependencies
+95 warn peerDependencies The peer dependency jshint@2.x included from gulp-jshint will no
+96 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+97 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+98 verbose readDependencies loading dependencies from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint\package.json
+99 silly cache add args [ 'minimatch@^2.0.1', null ]
+100 verbose cache add spec minimatch@^2.0.1
+101 silly cache add parsed spec Result {
+101 silly cache add   raw: 'minimatch@^2.0.1',
+101 silly cache add   scope: null,
+101 silly cache add   name: 'minimatch',
+101 silly cache add   rawSpec: '^2.0.1',
+101 silly cache add   spec: '>=2.0.1 <3.0.0',
+101 silly cache add   type: 'range' }
+102 silly addNamed minimatch@>=2.0.1 <3.0.0
+103 verbose addNamed ">=2.0.1 <3.0.0" is a valid semver range for minimatch
+104 silly addNameRange { name: 'minimatch', range: '>=2.0.1 <3.0.0', hasData: false }
+105 silly mapToRegistry name minimatch
+106 silly mapToRegistry using default registry
+107 silly mapToRegistry registry http://registry.cnpmjs.org/
+108 silly mapToRegistry data Result {
+108 silly mapToRegistry   raw: 'minimatch',
+108 silly mapToRegistry   scope: null,
+108 silly mapToRegistry   name: 'minimatch',
+108 silly mapToRegistry   rawSpec: '',
+108 silly mapToRegistry   spec: 'latest',
+108 silly mapToRegistry   type: 'tag' }
+109 silly mapToRegistry uri http://registry.cnpmjs.org/minimatch
+110 verbose addNameRange registry:http://registry.cnpmjs.org/minimatch not in flight; fetching
+111 silly cache add args [ 'lodash@^4.12.0', null ]
+112 verbose cache add spec lodash@^4.12.0
+113 silly cache add parsed spec Result {
+113 silly cache add   raw: 'lodash@^4.12.0',
+113 silly cache add   scope: null,
+113 silly cache add   name: 'lodash',
+113 silly cache add   rawSpec: '^4.12.0',
+113 silly cache add   spec: '>=4.12.0 <5.0.0',
+113 silly cache add   type: 'range' }
+114 silly addNamed lodash@>=4.12.0 <5.0.0
+115 verbose addNamed ">=4.12.0 <5.0.0" is a valid semver range for lodash
+116 silly addNameRange { name: 'lodash', range: '>=4.12.0 <5.0.0', hasData: false }
+117 silly mapToRegistry name lodash
+118 silly mapToRegistry using default registry
+119 silly mapToRegistry registry http://registry.cnpmjs.org/
+120 silly mapToRegistry data Result {
+120 silly mapToRegistry   raw: 'lodash',
+120 silly mapToRegistry   scope: null,
+120 silly mapToRegistry   name: 'lodash',
+120 silly mapToRegistry   rawSpec: '',
+120 silly mapToRegistry   spec: 'latest',
+120 silly mapToRegistry   type: 'tag' }
+121 silly mapToRegistry uri http://registry.cnpmjs.org/lodash
+122 verbose addNameRange registry:http://registry.cnpmjs.org/lodash not in flight; fetching
+123 silly cache add args [ 'rcloader@0.1.2', null ]
+124 verbose cache add spec rcloader@0.1.2
+125 silly cache add parsed spec Result {
+125 silly cache add   raw: 'rcloader@0.1.2',
+125 silly cache add   scope: null,
+125 silly cache add   name: 'rcloader',
+125 silly cache add   rawSpec: '0.1.2',
+125 silly cache add   spec: '0.1.2',
+125 silly cache add   type: 'version' }
+126 silly addNamed rcloader@0.1.2
+127 verbose addNamed "0.1.2" is a plain semver version for rcloader
+128 silly mapToRegistry name rcloader
+129 silly mapToRegistry using default registry
+130 silly mapToRegistry registry http://registry.cnpmjs.org/
+131 silly mapToRegistry data Result {
+131 silly mapToRegistry   raw: 'rcloader',
+131 silly mapToRegistry   scope: null,
+131 silly mapToRegistry   name: 'rcloader',
+131 silly mapToRegistry   rawSpec: '',
+131 silly mapToRegistry   spec: 'latest',
+131 silly mapToRegistry   type: 'tag' }
+132 silly mapToRegistry uri http://registry.cnpmjs.org/rcloader
+133 verbose addNameVersion registry:http://registry.cnpmjs.org/rcloader not in flight; fetching
+134 silly cache add args [ 'through2@~0.6.1', null ]
+135 verbose cache add spec through2@~0.6.1
+136 silly cache add parsed spec Result {
+136 silly cache add   raw: 'through2@~0.6.1',
+136 silly cache add   scope: null,
+136 silly cache add   name: 'through2',
+136 silly cache add   rawSpec: '~0.6.1',
+136 silly cache add   spec: '>=0.6.1 <0.7.0',
+136 silly cache add   type: 'range' }
+137 silly addNamed through2@>=0.6.1 <0.7.0
+138 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for through2
+139 silly addNameRange { name: 'through2', range: '>=0.6.1 <0.7.0', hasData: false }
+140 silly mapToRegistry name through2
+141 silly mapToRegistry using default registry
+142 silly mapToRegistry registry http://registry.cnpmjs.org/
+143 silly mapToRegistry data Result {
+143 silly mapToRegistry   raw: 'through2',
+143 silly mapToRegistry   scope: null,
+143 silly mapToRegistry   name: 'through2',
+143 silly mapToRegistry   rawSpec: '',
+143 silly mapToRegistry   spec: 'latest',
+143 silly mapToRegistry   type: 'tag' }
+144 silly mapToRegistry uri http://registry.cnpmjs.org/through2
+145 verbose addNameRange registry:http://registry.cnpmjs.org/through2 not in flight; fetching
+146 silly cache add args [ 'gulp-util@^3.0.0', null ]
+147 verbose cache add spec gulp-util@^3.0.0
+148 silly cache add parsed spec Result {
+148 silly cache add   raw: 'gulp-util@^3.0.0',
+148 silly cache add   scope: null,
+148 silly cache add   name: 'gulp-util',
+148 silly cache add   rawSpec: '^3.0.0',
+148 silly cache add   spec: '>=3.0.0 <4.0.0',
+148 silly cache add   type: 'range' }
+149 silly addNamed gulp-util@>=3.0.0 <4.0.0
+150 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for gulp-util
+151 silly addNameRange { name: 'gulp-util', range: '>=3.0.0 <4.0.0', hasData: false }
+152 silly mapToRegistry name gulp-util
+153 silly mapToRegistry using default registry
+154 silly mapToRegistry registry http://registry.cnpmjs.org/
+155 silly mapToRegistry data Result {
+155 silly mapToRegistry   raw: 'gulp-util',
+155 silly mapToRegistry   scope: null,
+155 silly mapToRegistry   name: 'gulp-util',
+155 silly mapToRegistry   rawSpec: '',
+155 silly mapToRegistry   spec: 'latest',
+155 silly mapToRegistry   type: 'tag' }
+156 silly mapToRegistry uri http://registry.cnpmjs.org/gulp-util
+157 verbose addNameRange registry:http://registry.cnpmjs.org/gulp-util not in flight; fetching
+158 verbose request uri http://registry.cnpmjs.org/minimatch
+159 verbose request no auth needed
+160 info attempt registry request try #1 at 16:05:49
+161 http request GET http://registry.cnpmjs.org/minimatch
+162 verbose request uri http://registry.cnpmjs.org/rcloader
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 16:05:49
+165 http request GET http://registry.cnpmjs.org/rcloader
+166 verbose request uri http://registry.cnpmjs.org/lodash
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 16:05:49
+169 http request GET http://registry.cnpmjs.org/lodash
+170 verbose request uri http://registry.cnpmjs.org/through2
+171 verbose request no auth needed
+172 info attempt registry request try #1 at 16:05:49
+173 http request GET http://registry.cnpmjs.org/through2
+174 verbose request uri http://registry.cnpmjs.org/gulp-util
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 16:05:49
+177 http request GET http://registry.cnpmjs.org/gulp-util
+178 http 200 http://registry.cnpmjs.org/minimatch
+179 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+179 verbose headers   date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+179 verbose headers   'content-type': 'application/json; charset=utf-8',
+179 verbose headers   'transfer-encoding': 'chunked',
+179 verbose headers   connection: 'keep-alive',
+179 verbose headers   'x-current-requests': '1',
+179 verbose headers   'x-readtime': '26',
+179 verbose headers   'strict-transport-security': 'max-age=15768000',
+179 verbose headers   'content-encoding': 'gzip' }
+180 silly get cb [ 200,
+180 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+180 silly get     date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+180 silly get     'content-type': 'application/json; charset=utf-8',
+180 silly get     'transfer-encoding': 'chunked',
+180 silly get     connection: 'keep-alive',
+180 silly get     'x-current-requests': '1',
+180 silly get     'x-readtime': '26',
+180 silly get     'strict-transport-security': 'max-age=15768000',
+180 silly get     'content-encoding': 'gzip' } ]
+181 verbose get saving minimatch to C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\registry.cnpmjs.org\minimatch\.cache.json
+182 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+183 silly addNameRange number 2 { name: 'minimatch', range: '>=2.0.1 <3.0.0', hasData: true }
+184 silly addNameRange versions [ 'minimatch',
+184 silly addNameRange   [ '3.0.2',
+184 silly addNameRange     '3.0.0',
+184 silly addNameRange     '2.0.10',
+184 silly addNameRange     '2.0.9',
+184 silly addNameRange     '2.0.8',
+184 silly addNameRange     '2.0.7',
+184 silly addNameRange     '2.0.6',
+184 silly addNameRange     '2.0.5',
+184 silly addNameRange     '2.0.4',
+184 silly addNameRange     '2.0.3',
+184 silly addNameRange     '2.0.2',
+184 silly addNameRange     '2.0.1',
+184 silly addNameRange     '2.0.0',
+184 silly addNameRange     '1.0.0',
+184 silly addNameRange     '0.4.0',
+184 silly addNameRange     '0.3.0',
+184 silly addNameRange     '0.2.14',
+184 silly addNameRange     '0.2.13',
+184 silly addNameRange     '0.2.12',
+184 silly addNameRange     '0.2.11',
+184 silly addNameRange     '0.2.10',
+184 silly addNameRange     '0.2.9',
+184 silly addNameRange     '0.2.8',
+184 silly addNameRange     '0.2.7',
+184 silly addNameRange     '0.2.6',
+184 silly addNameRange     '0.2.5',
+184 silly addNameRange     '0.2.4',
+184 silly addNameRange     '0.2.3',
+184 silly addNameRange     '0.2.2',
+184 silly addNameRange     '0.2.0',
+184 silly addNameRange     '0.1.5',
+184 silly addNameRange     '0.1.4',
+184 silly addNameRange     '0.1.3',
+184 silly addNameRange     '0.1.2',
+184 silly addNameRange     '0.1.1',
+184 silly addNameRange     '0.0.5',
+184 silly addNameRange     '0.0.4',
+184 silly addNameRange     '0.0.2',
+184 silly addNameRange     '0.0.1' ] ]
+185 silly addNamed minimatch@2.0.10
+186 verbose addNamed "2.0.10" is a plain semver version for minimatch
+187 warn deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+188 silly cache afterAdd minimatch@2.0.10
+189 verbose afterAdd C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\minimatch\2.0.10\package\package.json not in flight; writing
+190 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+191 verbose afterAdd C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\minimatch\2.0.10\package\package.json written
+192 http 200 http://registry.cnpmjs.org/rcloader
+193 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+193 verbose headers   date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+193 verbose headers   'content-type': 'application/json; charset=utf-8',
+193 verbose headers   'transfer-encoding': 'chunked',
+193 verbose headers   connection: 'keep-alive',
+193 verbose headers   'x-current-requests': '1',
+193 verbose headers   'x-readtime': '22',
+193 verbose headers   'strict-transport-security': 'max-age=15768000',
+193 verbose headers   'content-encoding': 'gzip' }
+194 silly get cb [ 200,
+194 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+194 silly get     date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+194 silly get     'content-type': 'application/json; charset=utf-8',
+194 silly get     'transfer-encoding': 'chunked',
+194 silly get     connection: 'keep-alive',
+194 silly get     'x-current-requests': '1',
+194 silly get     'x-readtime': '22',
+194 silly get     'strict-transport-security': 'max-age=15768000',
+194 silly get     'content-encoding': 'gzip' } ]
+195 verbose get saving rcloader to C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\registry.cnpmjs.org\rcloader\.cache.json
+196 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+197 http 200 http://registry.cnpmjs.org/through2
+198 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+198 verbose headers   date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+198 verbose headers   'content-type': 'application/json; charset=utf-8',
+198 verbose headers   'transfer-encoding': 'chunked',
+198 verbose headers   connection: 'keep-alive',
+198 verbose headers   'x-current-requests': '1',
+198 verbose headers   'x-readtime': '68',
+198 verbose headers   'strict-transport-security': 'max-age=15768000',
+198 verbose headers   'content-encoding': 'gzip' }
+199 silly get cb [ 200,
+199 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+199 silly get     date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+199 silly get     'content-type': 'application/json; charset=utf-8',
+199 silly get     'transfer-encoding': 'chunked',
+199 silly get     connection: 'keep-alive',
+199 silly get     'x-current-requests': '1',
+199 silly get     'x-readtime': '68',
+199 silly get     'strict-transport-security': 'max-age=15768000',
+199 silly get     'content-encoding': 'gzip' } ]
+200 verbose get saving through2 to C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\registry.cnpmjs.org\through2\.cache.json
+201 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+202 http 200 http://registry.cnpmjs.org/gulp-util
+203 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+203 verbose headers   date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+203 verbose headers   'content-type': 'application/json; charset=utf-8',
+203 verbose headers   'transfer-encoding': 'chunked',
+203 verbose headers   connection: 'keep-alive',
+203 verbose headers   'x-current-requests': '1',
+203 verbose headers   'x-readtime': '33',
+203 verbose headers   'strict-transport-security': 'max-age=15768000',
+203 verbose headers   'content-encoding': 'gzip' }
+204 silly get cb [ 200,
+204 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+204 silly get     date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+204 silly get     'content-type': 'application/json; charset=utf-8',
+204 silly get     'transfer-encoding': 'chunked',
+204 silly get     connection: 'keep-alive',
+204 silly get     'x-current-requests': '1',
+204 silly get     'x-readtime': '33',
+204 silly get     'strict-transport-security': 'max-age=15768000',
+204 silly get     'content-encoding': 'gzip' } ]
+205 verbose get saving gulp-util to C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\registry.cnpmjs.org\gulp-util\.cache.json
+206 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+207 silly mapToRegistry name rcloader
+208 silly mapToRegistry using default registry
+209 silly mapToRegistry registry http://registry.cnpmjs.org/
+210 silly mapToRegistry data Result {
+210 silly mapToRegistry   raw: 'rcloader',
+210 silly mapToRegistry   scope: null,
+210 silly mapToRegistry   name: 'rcloader',
+210 silly mapToRegistry   rawSpec: '',
+210 silly mapToRegistry   spec: 'latest',
+210 silly mapToRegistry   type: 'tag' }
+211 silly mapToRegistry uri http://registry.cnpmjs.org/rcloader
+212 verbose addRemoteTarball http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz not in flight; adding
+213 verbose addRemoteTarball [ 'http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz',
+213 verbose addRemoteTarball   'a0963a6437d09ef8cb92d932d2dad497b0d1736c' ]
+214 silly addNameRange number 2 { name: 'through2', range: '>=0.6.1 <0.7.0', hasData: true }
+215 silly addNameRange versions [ 'through2',
+215 silly addNameRange   [ '2.0.1',
+215 silly addNameRange     '2.0.0',
+215 silly addNameRange     '0.6.5',
+215 silly addNameRange     '0.6.4',
+215 silly addNameRange     '0.6.3',
+215 silly addNameRange     '0.6.2',
+215 silly addNameRange     '1.1.1',
+215 silly addNameRange     '0.6.1',
+215 silly addNameRange     '1.1.0',
+215 silly addNameRange     '0.6.0',
+215 silly addNameRange     '0.5.1',
+215 silly addNameRange     '0.5.0',
+215 silly addNameRange     '0.4.2',
+215 silly addNameRange     '1.0.0',
+215 silly addNameRange     '0.4.1',
+215 silly addNameRange     '0.4.0',
+215 silly addNameRange     '0.3.0',
+215 silly addNameRange     '0.2.3',
+215 silly addNameRange     '0.2.2',
+215 silly addNameRange     '0.2.1',
+215 silly addNameRange     '0.2.0',
+215 silly addNameRange     '0.1.0',
+215 silly addNameRange     '0.0.5',
+215 silly addNameRange     '0.0.4',
+215 silly addNameRange     '0.0.3',
+215 silly addNameRange     '0.0.2',
+215 silly addNameRange     '0.0.1',
+215 silly addNameRange     '0.0.0' ] ]
+216 silly addNamed through2@0.6.5
+217 verbose addNamed "0.6.5" is a plain semver version for through2
+218 silly addNameRange number 2 { name: 'gulp-util', range: '>=3.0.0 <4.0.0', hasData: true }
+219 silly addNameRange versions [ 'gulp-util',
+219 silly addNameRange   [ '3.0.7',
+219 silly addNameRange     '3.0.6',
+219 silly addNameRange     '3.0.5',
+219 silly addNameRange     '3.0.4',
+219 silly addNameRange     '3.0.3',
+219 silly addNameRange     '3.0.2',
+219 silly addNameRange     '3.0.1',
+219 silly addNameRange     '3.0.0',
+219 silly addNameRange     '2.2.20',
+219 silly addNameRange     '2.2.19',
+219 silly addNameRange     '2.2.18',
+219 silly addNameRange     '2.2.17',
+219 silly addNameRange     '2.2.16',
+219 silly addNameRange     '2.2.15',
+219 silly addNameRange     '2.2.14',
+219 silly addNameRange     '2.2.13',
+219 silly addNameRange     '2.2.12',
+219 silly addNameRange     '2.2.11',
+219 silly addNameRange     '2.2.10',
+219 silly addNameRange     '2.2.9',
+219 silly addNameRange     '2.2.8',
+219 silly addNameRange     '2.2.7',
+219 silly addNameRange     '2.2.6',
+219 silly addNameRange     '2.2.5',
+219 silly addNameRange     '2.2.3',
+219 silly addNameRange     '2.2.2',
+219 silly addNameRange     '2.2.1',
+219 silly addNameRange     '2.2.0',
+219 silly addNameRange     '2.1.4',
+219 silly addNameRange     '2.1.3',
+219 silly addNameRange     '2.1.2',
+219 silly addNameRange     '2.1.1',
+219 silly addNameRange     '2.0.0',
+219 silly addNameRange     '1.3.0',
+219 silly addNameRange     '1.2.0',
+219 silly addNameRange     '1.1.1',
+219 silly addNameRange     '1.1.0',
+219 silly addNameRange     '1.0.0',
+219 silly addNameRange     '0.0.1' ] ]
+220 silly addNamed gulp-util@3.0.7
+221 verbose addNamed "3.0.7" is a plain semver version for gulp-util
+222 silly cache afterAdd through2@0.6.5
+223 verbose afterAdd C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\through2\0.6.5\package\package.json not in flight; writing
+224 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+225 silly cache afterAdd gulp-util@3.0.7
+226 verbose afterAdd C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\gulp-util\3.0.7\package\package.json not in flight; writing
+227 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+228 info retry fetch attempt 1 at 16:05:49
+229 info attempt registry request try #1 at 16:05:49
+230 http fetch GET http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz
+231 verbose afterAdd C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\through2\0.6.5\package\package.json written
+232 verbose afterAdd C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\gulp-util\3.0.7\package\package.json written
+233 http 200 http://registry.cnpmjs.org/lodash
+234 verbose headers { server: 'nginx/1.4.6 (Ubuntu)',
+234 verbose headers   date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+234 verbose headers   'content-type': 'application/json; charset=utf-8',
+234 verbose headers   'transfer-encoding': 'chunked',
+234 verbose headers   connection: 'keep-alive',
+234 verbose headers   'x-current-requests': '1',
+234 verbose headers   'x-readtime': '121',
+234 verbose headers   'strict-transport-security': 'max-age=15768000',
+234 verbose headers   'content-encoding': 'gzip' }
+235 silly get cb [ 200,
+235 silly get   { server: 'nginx/1.4.6 (Ubuntu)',
+235 silly get     date: 'Thu, 04 Aug 2016 08:05:49 GMT',
+235 silly get     'content-type': 'application/json; charset=utf-8',
+235 silly get     'transfer-encoding': 'chunked',
+235 silly get     connection: 'keep-alive',
+235 silly get     'x-current-requests': '1',
+235 silly get     'x-readtime': '121',
+235 silly get     'strict-transport-security': 'max-age=15768000',
+235 silly get     'content-encoding': 'gzip' } ]
+236 verbose get saving lodash to C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\registry.cnpmjs.org\lodash\.cache.json
+237 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+238 silly addNameRange number 2 { name: 'lodash', range: '>=4.12.0 <5.0.0', hasData: true }
+239 silly addNameRange versions [ 'lodash',
+239 silly addNameRange   [ '4.14.1',
+239 silly addNameRange     '4.14.0',
+239 silly addNameRange     '4.13.1',
+239 silly addNameRange     '4.13.0',
+239 silly addNameRange     '4.12.0',
+239 silly addNameRange     '4.11.2',
+239 silly addNameRange     '4.11.1',
+239 silly addNameRange     '4.11.0',
+239 silly addNameRange     '4.10.0',
+239 silly addNameRange     '4.9.0',
+239 silly addNameRange     '4.8.2',
+239 silly addNameRange     '4.8.1',
+239 silly addNameRange     '4.8.0',
+239 silly addNameRange     '4.7.0',
+239 silly addNameRange     '4.6.1',
+239 silly addNameRange     '4.6.0',
+239 silly addNameRange     '4.5.1',
+239 silly addNameRange     '4.5.0',
+239 silly addNameRange     '4.4.0',
+239 silly addNameRange     '4.3.0',
+239 silly addNameRange     '4.2.1',
+239 silly addNameRange     '4.2.0',
+239 silly addNameRange     '4.1.0',
+239 silly addNameRange     '4.0.1',
+239 silly addNameRange     '4.0.0',
+239 silly addNameRange     '3.10.1',
+239 silly addNameRange     '3.10.0',
+239 silly addNameRange     '3.9.3',
+239 silly addNameRange     '3.9.2',
+239 silly addNameRange     '3.9.1',
+239 silly addNameRange     '3.9.0',
+239 silly addNameRange     '3.8.0',
+239 silly addNameRange     '2.4.2',
+239 silly addNameRange     '3.7.0',
+239 silly addNameRange     '1.0.2',
+239 silly addNameRange     '3.6.0',
+239 silly addNameRange     '3.5.0',
+239 silly addNameRange     '3.4.0',
+239 silly addNameRange     '3.3.1',
+239 silly addNameRange     '3.3.0',
+239 silly addNameRange     '3.2.0',
+239 silly addNameRange     '3.1.0',
+239 silly addNameRange     '3.0.1',
+239 silly addNameRange     '3.0.0',
+239 silly addNameRange     '2.4.1',
+239 silly addNameRange     '2.4.0',
+239 silly addNameRange     '2.3.0',
+239 silly addNameRange     '2.2.1',
+239 silly addNameRange     '2.2.0',
+239 silly addNameRange     '2.1.0',
+239 silly addNameRange     '2.0.0',
+239 silly addNameRange     '1.3.1',
+239 silly addNameRange     '1.3.0',
+239 silly addNameRange     '1.2.1',
+239 silly addNameRange     '1.2.0',
+239 silly addNameRange     '1.1.1',
+239 silly addNameRange     '1.1.0',
+239 silly addNameRange     '1.0.1',
+239 silly addNameRange     '1.0.0',
+239 silly addNameRange     '1.0.0-rc.3',
+239 silly addNameRange     '1.0.0-rc.2',
+239 silly addNameRange     '1.0.0-rc.1',
+239 silly addNameRange     '0.10.0',
+239 silly addNameRange     '0.9.2',
+239 silly addNameRange     '0.9.1',
+239 silly addNameRange     '0.9.0',
+239 silly addNameRange     '0.8.2',
+239 silly addNameRange     '0.8.1',
+239 silly addNameRange     '0.8.0',
+239 silly addNameRange     '0.7.0',
+239 silly addNameRange     '0.6.1',
+239 silly addNameRange     '0.6.0',
+239 silly addNameRange     '0.5.2',
+239 silly addNameRange     '0.5.1',
+239 silly addNameRange     '0.5.0',
+239 silly addNameRange     '0.5.0-rc.1',
+239 silly addNameRange     '0.4.2',
+239 silly addNameRange     '0.4.1',
+239 silly addNameRange     '0.4.0',
+239 silly addNameRange     '0.3.2',
+239 silly addNameRange     '0.3.1',
+239 silly addNameRange     '0.3.0',
+239 silly addNameRange     '0.2.2',
+239 silly addNameRange     '0.2.1',
+239 silly addNameRange     '0.2.0',
+239 silly addNameRange     '0.1.0' ] ]
+240 silly addNamed lodash@4.14.1
+241 verbose addNamed "4.14.1" is a plain semver version for lodash
+242 silly cache afterAdd lodash@4.14.1
+243 verbose afterAdd C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\lodash\4.14.1\package\package.json not in flight; writing
+244 verbose correctMkdir C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+245 verbose afterAdd C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\lodash\4.14.1\package\package.json written
+246 http fetch 429 http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz
+247 error fetch failed http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz
+248 warn retry will retry, error on last attempt: Error: fetch failed with status code 429
+249 info retry fetch attempt 2 at 16:06:00
+250 info attempt registry request try #1 at 16:06:00
+251 http fetch GET http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz
+252 http fetch 429 http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz
+253 error fetch failed http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz
+254 warn retry will retry, error on last attempt: Error: fetch failed with status code 429
+255 info retry fetch attempt 3 at 16:07:00
+256 info attempt registry request try #1 at 16:07:00
+257 http fetch GET http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz
+258 http fetch 429 http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz
+259 error fetch failed http://registry.cnpmjs.org/rcloader/download/rcloader-0.1.2.tgz
+260 verbose about to build C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint
+261 verbose unlock done using C:\Users\allen.liu.GSERVFOCUSGROUP\AppData\Roaming\npm-cache\_locks\gulp-jshint-c344313a8e0a36fa.lock for C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint
+262 verbose stack Error: fetch failed with status code 429
+262 verbose stack     at Request.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\fetch.js:51:14)
+262 verbose stack     at emitOne (events.js:77:13)
+262 verbose stack     at Request.emit (events.js:169:7)
+262 verbose stack     at Request.onRequestResponse (C:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:977:10)
+262 verbose stack     at emitOne (events.js:77:13)
+262 verbose stack     at ClientRequest.emit (events.js:169:7)
+262 verbose stack     at HTTPParser.parserOnIncomingClient (_http_client.js:430:21)
+262 verbose stack     at HTTPParser.parserOnHeadersComplete (_http_common.js:103:23)
+262 verbose stack     at Socket.socketOnData (_http_client.js:320:20)
+262 verbose stack     at emitOne (events.js:77:13)
+263 verbose cwd C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp
+264 error Windows_NT 10.0.10586
+265 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "gulp-jshint" "-save-dev"
+266 error node v4.4.7
+267 error npm  v2.15.8
+268 error fetch failed with status code 429
+269 error If you need help, you may report this error at:
+269 error     <https://github.com/npm/npm/issues>
+270 verbose exit [ 1, true ]
+271 verbose unbuild node_modules\gulp-jshint
+272 info preuninstall gulp-jshint@2.0.1
+273 info uninstall gulp-jshint@2.0.1
+274 verbose unbuild rmStuff gulp-jshint@2.0.1 from C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules
+275 info postuninstall gulp-jshint@2.0.1
+276 silly gentlyRm C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint is being purged from base C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp
+277 verbose gentlyRm don't care about contents; nuking C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint
+278 silly vacuum-fs purging C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules\gulp-jshint
+279 silly vacuum-fs quitting because other entries in C:\Users\allen.liu.GSERVFOCUSGROUP\Desktop\GulpDemo\HowToUseGulp\node_modules

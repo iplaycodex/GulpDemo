@@ -31,5 +31,13 @@
 	2.2.6 参考demo里面的代码,Init了gulpfile.js的东西,然后再在控制台继续执行gulp,发现没有问题了!任务被成功的运行了!
 	
 >3.项目实战
+	
+	3.1 编码配置文件
+		也就是gulpfile.js.
+		
+	3.2 cd到项目中,执行gulp.发现没有下载对应的包
+		执行 npm install xxx(包名) -save-dev
+		
+		下载对应的包,然后再执行gulp就可以了.
 
 	
